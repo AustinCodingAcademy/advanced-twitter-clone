@@ -1,23 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main';
+import Header from './components/Header';
 
-function Header(){
-   return (
-    <div id="header">
-    I am the header
-  </div>);
-}
-
-function Main(){
-  return (
-    <div id="main">
-    main
-    </div>
-    );
-}
-
- function App(){
+function App(){
    return (
     <div id="main">
       <Header />
@@ -25,5 +12,4 @@ function Main(){
     </div>
   );
  }
-
 export default App;
