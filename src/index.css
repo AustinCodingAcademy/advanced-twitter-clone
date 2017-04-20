@@ -10,3 +10,29 @@ body {
 #main{
   border: 1px solid black;
 }
+/* Styles go here */
+#header{
+  border: 1px solid black;
+  min-height: 40px;
+  background-color: blue;
+}
+#mainBody{
+  border: 1px solid black;
+}
+#icon img{
+  height: 25px;
+  width: 25px;
+}
+#icon {
+  border: 1px solid black;
+  text-align: center;
+}
+#links {
+  border: 1px solid black;
+}
+#search {
+  border: 1px solid black;
+}
+#search form, #search input, #search img, #search button {
+  display: inline;
+}

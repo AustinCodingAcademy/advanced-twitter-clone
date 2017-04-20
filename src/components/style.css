@@ -1,0 +1,19 @@
+/* Styles go here */
+#header{
+  border: 1px solid black;
+  min-height: 200px;
+}
+#main{
+  border: 1px solid black;
+  min-height: 200px;
+}
+#icon img{
+  height: 25px;
+  width: 25px;
+}
+#icon {
+  border: 1px solid black;
+}
+#links {
+  border: 1px solid black;
+}
