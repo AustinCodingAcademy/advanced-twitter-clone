@@ -1,10 +1,22 @@
 import React from 'react';
+import Links from './Links';
+import Icon from './Icon';
+import Search from './Search';
 
-function Header(){
-   return (
+		
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
     <div id="header">
-    I am the header
+    <Links />
+    <Icon />
+    <Search />
   </div>);
+  }
 }
 
-export default Header;
+		 
+	export default Header;
