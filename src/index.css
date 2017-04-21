@@ -1,12 +1,212 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: sans-serif;
 }
 /* Styles go here */
 #header{
-  border: 1px solid black;
+
+  height: 50px;
+  padding-top: 30px;
+  border-bottom: 1px solid rgb(220,220,220);
 }
 #main{
-  border: 1px solid black;
+  height: 900px;
+}
+
+#leftcolumn{
+  float: left;
+  width: 33%;
+  height: 100%;
+
+}
+#midcolumn{
+  float: left;
+  width: 33%;
+  height: 900px;
+
+
+}
+#rightcolumn{
+  float: left;
+  width: 33%;
+  height: 900px;
+
+}
+#userinfo{
+  background-color: rgb(245,245,245);
+  background-size: 50%;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+#userinfo-user{
+  width: 100%;
+  height: 100px;
+  background-color: #00aced;
+
+}
+
+#photo{
+  width: 36.25%;
+  float: left;
+  height: 40%;
+  margin-top: 75px;
+  margin-left: 70px;
+}
+
+#photo #user-photo{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+}
+
+
+#username {
+  float: left;
+  font-size: 1.2em;
+  margin-top: 140px;
+
+}
+
+#username p{
+  margin-top: -20px;
+
+}
+
+#tweetinfo{
+  width: 100%;
+  height: 100px;
+  float: left;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.tweetinfo{
+  margin-top: 59px;
+  float: left;
+  width: 33%;
+  font-size: 0.9em;
+
+}
+
+.blue-text{
+  color: #00aced;
+}
+#gain-text{
+  margin-top: 50px;
+  padding-left: 50px;
+  float:left;
+  width: 90%;
+  height: 200px;
+  background-color: rgb(220,220,220);
+}
+#gain-text h1{
+  font-size: 1.5em;
+}
+
+#trends{
+  height: 400px;
+  margin-left: 50px;
+}
+#trends p{
+  margin-top: -20px;
+}
+
+#headericons{
+  width: 45%;
+  float: left;
+  padding-left: 20px;
+}
+#headericons i{
+  padding-left: 20px;
+  color: #0084b4;
+}
+
+#headerlogo{
+  width: 10%;
+  float: left;
+}
+#headersearch{
+  width: 43%;
+  float: left;
+  text-align: center;
+}
+
+#searchBar{
+  height: 90px;
+}
+#newtweet{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.mini-photo{
+  width: 60px;
+  height: 60px;
+}
+
+#newtweet-avatar{
+  float: left;
+}
+
+#newtweet-textarea{
+  float: left;
+  margin-left: 10px;
+}
+
+.newtweet-textarea{
+  width: 300px;
+  height: 45px;
+  resize: none;
+}
+
+.newtweet-submit{
+  margin-left: 225px;
+}
+.tweet{
+  margin-top: 40px;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: inline-block;
+}
+
+.tweet-avatar{
+  float: left;
+  margin-top: 20px;
+  width: 18%;
+}
+.tweet-content{
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.twitter-avatar{
+  float: left;
+  margin-top: 20px;
+  width: 18%;
+}
+.twitter-username{
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.twitter-account{
+
+  padding-left: 40px;
+
+  width: 100%;
+  display: inline-block;
+}
+.twitter-username-discription{
+  margin-top: -15px;
+}
+
+#livevideo{
+  margin-top: 100px;
+  height: 200px;
+  border: 1px solid blue;
 }
