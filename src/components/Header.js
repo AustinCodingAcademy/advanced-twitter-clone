@@ -1,9 +1,14 @@
 import React from 'react';
+import HeaderIcons from './HeaderIcons.js';
+import HeaderLogo from './HeaderLogo.js';
+import HeaderSearch from './HeaderSearch.js';
 
 function Header(){
    return (
     <div id="header">
-    I am the header
+    <HeaderIcons />
+    <HeaderLogo />
+    <HeaderSearch />
   </div>);
 }
 
