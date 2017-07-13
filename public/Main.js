@@ -1,3 +1,9 @@
 function Main(){
-  return <div>Hello</div>
+  return <div>
+              <div className="main">
+                <LeftCol />
+                <CenterCol />
+                <RightCol />
+              </div>
+          </div>
 }
