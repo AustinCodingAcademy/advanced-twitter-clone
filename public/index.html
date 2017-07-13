@@ -17,6 +17,61 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+      .header {
+        width:100%;
+        height: 40px;
+        text-align: left;
+        background-color: lightblue;
+      }
+
+      .header li {
+        display: inline-block;
+        padding: 0px 15px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+      }
+
+      .leftcol {
+        flex-grow: 1;
+      }
+
+      .centercol {
+        flex-grow: 2;
+      }
+
+      .rightcol {
+        flex-grow: 1;
+      }
+
+      .profile {
+        background-color: orange;
+        width: 100%;
+        height: auto;
+      }
+      .trends {
+        background-color: yellow;
+        width: 100%;
+        height: auto;
+      }
+
+      .tweets {
+        background-color: blue;
+      }
+
+      .follow {
+        background-color: gray;
+      }
+
+      .videos {
+        background-color: pink;
+      }
+
+    </style>
   </head>
   <body>
     <div id="root"></div>
@@ -30,6 +85,10 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
+    <script src="Header.js" type="text/jsx"></script>
+    <script src="LeftCol.js" type="text/jsx"></script>
+    <script src="CenterCol.js" type="text/jsx"></script>
+    <script src="RightCol.js" type="text/jsx"></script>
     <script src="Main.js" type="text/jsx"></script>
     <script src="App.js" type="text/jsx"></script>
     <script src="index.js" type="text/jsx"></script>
