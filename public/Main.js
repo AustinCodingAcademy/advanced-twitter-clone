@@ -1,3 +1,11 @@
 function Main(){
-  return <div>Hello</div>
+  return (
+    <div>
+      <Header />
+      <div className="bod">
+        <Profile />
+        <Center />
+      </div>
+    </div>
+)
 }
