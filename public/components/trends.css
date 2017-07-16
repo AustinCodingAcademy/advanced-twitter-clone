@@ -1,0 +1,21 @@
+.trends {
+  clear: both;
+  width: 340px;
+  border: 1px solid lightgrey;
+  padding-left: 10px;
+}
+
+a {
+  font-size: 15px;
+  color: #11CAF2;
+}
+
+.trends h3 {
+  color: grey;
+}
+
+.trends p  {
+  font-size: 15px;
+  color: grey;
+  margin-top: 5px;
+}

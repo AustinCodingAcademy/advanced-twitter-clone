@@ -1,7 +1,8 @@
 function LeftCol() {
    return (
     <div className="left">
-      <Profile/>
+      <Profile />
+      <Trends />
     </div>
   );
  }
