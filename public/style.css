@@ -1,0 +1,32 @@
+.header {
+  margin-top: 0px;
+  padding: 50px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.left {
+  width: 30%;
+  float: left;
+  padding-left: 20px;
+}
+
+.center {
+  margin-left: 10px;
+  padding: 20px;
+  text-align: center;
+  float: left;
+}
+
+.right {
+  text-align: center;
+  width: 20%;
+  float: right;
+}
+
+.footer {
+  padding: 50px;
+  background-color: aliceblue;
+  text-align: center;
+  clear: both;
+}

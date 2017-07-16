@@ -1,0 +1,54 @@
+.ptop {
+  height: 100px;
+  width: 350px;
+  background-color: #11CAF2;
+}
+
+.pinfo {
+  height: 175px;
+  width: 350px;
+  border: 1px solid lightgrey;
+  float: left;
+}
+
+#ppic {
+  height: 75px;
+  width: auto;
+  margin-top: -30px;
+  margin-left: 10px;
+  border: 3px solid white;
+  border-radius: 10px;
+  float: left;
+}
+
+.user {
+  margin-top: -60px;
+  margin-right: 20px;
+  float: right;
+  clear: both;
+}
+
+.user p {
+  margin-top: -10px;
+  color: grey;
+}
+
+.pstats {
+  clear: both;
+}
+
+.pstat {
+  margin: 15px;
+  width: 20%;
+  float: left;
+}
+
+.plabel {
+  color: grey;
+  font-size: 10px;
+}
+
+.pnum {
+  color: #11CAF2;
+  font-size: 20px;
+}
