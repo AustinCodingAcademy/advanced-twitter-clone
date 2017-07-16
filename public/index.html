@@ -17,6 +17,66 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+      .header {
+        display: flex;
+        text-align: center;
+        border-style: solid;
+        border-color: grey;
+      }
+      .header h1 {
+        width: 33%;
+      }
+      .bod {
+        display: flex;
+        border-style: solid;
+        border-color: grey;
+      }
+      .profile {
+        background-color: blue;
+        width: 25%;
+        height: 300px;
+        border-bottom: solid;
+        /*border-style: solid;*/
+        border-color: grey;
+      }
+      .profile img {
+        height: 150px;
+        width: 45%;
+        background-color: white;
+      }
+      .profile h3 {
+        padding: 10px;
+        color: white;
+      }
+      .prof2 h3 {
+        padding-top: 60px;
+        color: blue;
+      }
+      .prof2 p {
+        padding: 10px;
+      }
+      .center {
+        width: 50%;
+        text-align: center;
+      }
+      .center h2 {
+        height: 40px;
+        background-color: lightblue;
+        margin: 0;
+        padding-top: 10px;
+        border-left: solid;
+        border-right: solid;
+        border-color: grey;
+      }
+      .center p {
+        height: 300px;
+        border-style: solid;
+        border-color: grey;
+        margin: 0;
+        padding-top: 20px;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
@@ -30,6 +90,10 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
+    <script src="Header.js" type="text/jsx"></script>
+    <script src="Prof2.js" type="text/jsx"></script>
+    <script src="Profile.js" type="text/jsx"></script>
+    <script src="Center.js" type="text/jsx"></script>
     <script src="Main.js" type="text/jsx"></script>
     <script src="App.js" type="text/jsx"></script>
     <script src="index.js" type="text/jsx"></script>
