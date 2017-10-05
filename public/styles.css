@@ -1,0 +1,46 @@
+.header {
+  width: auto;
+  height: 10vh;
+  background-color: grey;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  height: 75vh;
+  width: auto;
+  justify-content: center;
+}
+
+.red {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+  text-align: center;
+}
+
+.green {
+  width: 30%;
+  height: 100%;
+  background-color: green;
+  text-align: center;
+}
+
+.blue {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  text-align: center;
+}
+
+.kat1 {
+  height: 75%;
+  width: auto;
+}
+
+.footer {
+  width: auto;
+  height: 10vh;
+  background-color: grey;
+  text-align: center;
+}

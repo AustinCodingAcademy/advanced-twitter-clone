@@ -1,3 +1,9 @@
 function App(){
-  return <div><Main /></div>
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  )
 }

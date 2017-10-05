@@ -13,6 +13,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="styles.css">
     <title>React App</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
@@ -20,18 +21,18 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
+    <!-- <script>
       var tweets = [
         "ACA class was so awesome today.",
         "I just checked out that new restaurant, it was okay",
         "I just saw a movie that changed my life",
         "shirts are 50% of at Macy's today"
       ];
-    
+
     </script>
 
     <script>
-    
+
       var h1 = document.createElement("h1");
       h1.innerHTML = tweets[0];
       document.body.appendChild(h1);
@@ -41,10 +42,22 @@
     <script type="text/jsx">
     var tweet = React.createElement("h1",null,tweets[1])
     ReactDOM.render(
-      tweet, 
+      tweet,
       document.getElementById('root')
     );
-    </script>
+    </script> -->
+
+    <script src="Kat1.js" type="text/jsx"></script>
+    <script src="Kat2.js" type="text/jsx"></script>
+    <script src="Kat3.js" type="text/jsx"></script>
+    <script src="Red.js" type="text/jsx"></script>
+    <script src="Green.js" type="text/jsx"></script>
+    <script src="Blue.js" type="text/jsx"></script>
+    <script src="Header.js" type="text/jsx"></script>
+    <script src="Footer.js" type="text/jsx"></script>
+    <script src="Main.js"type="text/jsx"></script>
+    <script src='App.js' type="text/jsx"></script>
+    <script src="Index.js" type="text/jsx"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -55,6 +68,6 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-   
+
   </body>
 </html>

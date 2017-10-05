@@ -1,3 +1,9 @@
 function Main(){
-  return <div>Hello</div>
+  return (
+    <div className='main'>
+      <Red />
+      <Green />
+      <Blue />
+    </div>
+  )
 }
