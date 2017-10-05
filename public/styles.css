@@ -4,7 +4,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 100px 1fr 1fr 100px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
     'leftside head . rightside'
@@ -69,7 +69,7 @@
 
 
 
-@media only screen and (min-width : 321px) and (max-width : 767px)  {
+@media only screen and (min-width : 321px) and (max-width : 511px)  {
   .container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -80,6 +80,21 @@
       'main box '
       'boxthree . '
       'foot nine';
+      grid-gap: 10px 10px;
+  }
+}
+
+
+@media only screen and (min-width : 512px) and (max-width : 767px)  {
+  .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      grid-template-areas:
+      'leftside head newbox'
+      'rightside main box '
+      '.boxthree . '
+      'foot nine.';
       grid-gap: 10px 10px;
   }
 }
