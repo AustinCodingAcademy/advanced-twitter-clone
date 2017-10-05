@@ -1,0 +1,100 @@
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 100px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    'leftside head . rightside'
+    'main box newbox .'
+    'boxthree . foot nine';
+    grid-gap: 10px 10px;
+    margin: 10px;
+}
+
+
+
+
+
+.HeaderClass {
+  background-color: red;
+  grid-area: head;
+}
+
+
+.FooterClass {
+  background-color: blue;
+  grid-area: foot;
+}
+
+.MainClass {
+  background-color: green;
+  grid-area: main;
+}
+
+.LeftsideClass {
+  background-color: powderblue;
+  grid-area: leftside;
+}
+
+.RightsideClass {
+  background-color: orange;
+  grid-area: rightside;
+}
+
+
+
+.BoxClass {
+  background-color: purple;
+  grid-area: newbox;
+}
+
+.NewBoxClass {
+  background-color: yellow;
+  grid-area: box;
+}
+
+.BoxThreeClass {
+  background-color: pink;
+  grid-area: boxthree;
+}
+
+.NineClass {
+  background-color: brown;
+  grid-area: nine;
+}
+
+
+
+
+@media only screen and (min-width : 321px) and (max-width : 511px)  {
+  .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      grid-template-areas:
+      'leftside head'
+      'newbox rightside'
+      'main box '
+      'boxthree . '
+      'foot nine';
+      grid-gap: 10px 10px;
+  }
+}
+
+
+@media only screen and (min-width : 512px) and (max-width : 767px)  {
+  .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      grid-template-areas:
+      'leftside head newbox'
+      'rightside main box '
+      '.boxthree . '
+      'foot nine.';
+      grid-gap: 10px 10px;
+  }
+}

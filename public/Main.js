@@ -1,3 +1,9 @@
 function Main(){
-  return <div>Hello</div>
+  return(
+    <h1 className='MainClass'>
+      Tacos
+    </h1>
+
+  )
+
 }
