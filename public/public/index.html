@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+
+      var h1 = document.createElement("h1");
+      h1.innerHTML = tweets[0];
+      document.body.appendChild(h1);
+
+    </script>
+
+    <script type="text/jsx">
+    var tweet = React.createElement("h1",null,tweets[1])
+    ReactDOM.render(
+      tweet,
+      document.getElementById('root')
+    );
+    </script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+   <script src="SearchBar.js" type="text/jsx"></script>
+   <script src="Logo.js" type="text/jsx"></script>
+   <script src="NavBar.js" type="text/jsx"></script>
+   <script src="Header.js" type="text/jsx"></script>
+
+   <script src="Trends.js" type="text/jsx"></script>
+   <script src="User.js" type="text/jsx"></script>
+   <script src="Left.js" type="text/jsx"></script>
+
+   <script src="NewTweet.js" type="text/jsx"></script>
+   <script src="Tweets.js" type="text/jsx"></script>
+   <script src="Middle.js" type="text/jsx"></script>
+
+   <script src="WhoToFollow.js" type="text/jsx"></script>
+   <script src="LiveVideo.js" type="text/jsx"></script>
+   <script src="Right.js" type="text/jsx"></script>
+
+   <script src="Main.js" type="text/jsx"></script>
+   <script src="App.js" type="text/jsx"></script>
+   <script src="Index.js" type="text/jsx"></script>
+  </body>
+</html>
