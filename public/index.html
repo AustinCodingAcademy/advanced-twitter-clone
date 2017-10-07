@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -20,18 +21,9 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      var tweets = [
-        "ACA class was so awesome today.",
-        "I just checked out that new restaurant, it was okay",
-        "I just saw a movie that changed my life",
-        "shirts are 50% of at Macy's today"
-      ];
-    
-    </script>
 
     <script>
-    
+
       var h1 = document.createElement("h1");
       h1.innerHTML = tweets[0];
       document.body.appendChild(h1);
@@ -41,7 +33,7 @@
     <script type="text/jsx">
     var tweet = React.createElement("h1",null,tweets[1])
     ReactDOM.render(
-      tweet, 
+      tweet,
       document.getElementById('root')
     );
     </script>
@@ -55,6 +47,25 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-   
+   <script src="SearchBar.js" type="text/jsx"></script>
+   <script src="Logo.js" type="text/jsx"></script>
+   <script src="NavBar.js" type="text/jsx"></script>
+   <script src="Header.js" type="text/jsx"></script>
+
+   <script src="Trends.js" type="text/jsx"></script>
+   <script src="User.js" type="text/jsx"></script>
+   <script src="Left.js" type="text/jsx"></script>
+
+   <script src="NewTweet.js" type="text/jsx"></script>
+   <script src="Tweets.js" type="text/jsx"></script>
+   <script src="Middle.js" type="text/jsx"></script>
+
+   <script src="WhoToFollow.js" type="text/jsx"></script>
+   <script src="LiveVideo.js" type="text/jsx"></script>
+   <script src="Right.js" type="text/jsx"></script>
+
+   <script src="Main.js" type="text/jsx"></script>
+   <script src="App.js" type="text/jsx"></script>
+   <script src="Index.js" type="text/jsx"></script>
   </body>
 </html>

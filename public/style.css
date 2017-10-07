@@ -1,0 +1,78 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+div {
+  border: 1px solid lightblue;
+   box-sizing: border-box;
+}
+.header1 {
+  height: 55px;
+  width: 40%;
+  display: inline-block;
+}
+.header2 {
+  height: 55px;
+  width: 20%;
+  display: inline-block;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image: url('https://image.flaticon.com/icons/png/512/8/8800.png');
+  overflow:hidden;
+  background-position: center;
+  margin-bottom: -40px;
+
+}
+.header3 {
+  height: 55px;
+  width: 40%;
+  display: inline-block;
+  margin-bottom: -30px;
+
+}
+
+.bodydiv1 {
+  width: 25%;
+  display: inline-block;
+  background-color: skyblue;
+}
+.bodydiv2 {
+  width: 47%;
+  display: inline-block;
+}
+.bodydiv3 {
+  width: 25%;
+  height: 200px;
+  float: right;
+}
+
+.livevid {
+  margin-top: 20%;
+  height: 80%;
+  background-image: url('https://cdn.searchenginejournal.com/wp-content/uploads/2016/12/twitter_golive.jpg');
+  background-size:contain;
+  border-radius: 5px;
+}
+
+.liveVidinside {
+  width: 28%;
+  background-color: pink;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 37%;
+  margin-left: 2px;
+}
+
+.searcher{
+  border-radius: 10px;
+}
+
+.pic {
+  height: 120px;
+  width: 154px;
+  background-image: url('https://howtobearedhead.com/wp-content/uploads/2017/01/1f926c00b0bdd465dbec40dcd19f32fc-963x1024.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  margin: auto;
+}

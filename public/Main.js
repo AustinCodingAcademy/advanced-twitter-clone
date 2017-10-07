@@ -1,3 +1,9 @@
-function Main(){
-  return <div>Hello</div>
+function Main (){
+  return (
+     <div>
+       <Header />
+       <Left /> <Middle /> <Right />
+   </div>
+
+   );
 }
