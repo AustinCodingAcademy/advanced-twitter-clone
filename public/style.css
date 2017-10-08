@@ -1,0 +1,123 @@
+body {
+  min-height: 100vh;
+  background-image:
+    repeating-linear-gradient(305deg,
+      rgba(231,131,177, 0) 0,
+      #40ccde 61vmax,
+      #40ccde calc(61vmax - 5px),
+      #40ccde 61vmax
+    ),
+    repeating-linear-gradient(151deg,
+      rgba(231,131,177, 0) 0,
+      #9959cf 50vmax,
+      #9959cf calc(50vmax - 5px),
+      #9959cf 50vmax
+    );
+
+  background-color: #e783b1;
+  background-size: 100% 100%;
+}
+
+div {
+    display:flex;
+}
+
+.main, .col1, .col2, .col3 {
+    flex-direction:column;
+}
+
+.main {
+  /*margin: 0 auto;
+  max-width: 10vw;*/
+  /*background-color: lightblue;*/
+  padding-left: 200px;
+}
+
+#nav {
+    width: 450px;
+    height: 100px;
+    outline: solid 2px darkslategray;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#twitter {
+    width: 150px;
+    height: 100px;
+    outline: solid 2px darkslategray;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#search {
+    width: 450px;
+    height: 100px;
+    outline: solid 2px darkslategray;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#profile {
+    width: 300px;
+    height: 300px;
+    outline: solid 2px darkgreen;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#trends {
+    width: 300px;
+    height: 300px;
+    outline: solid 2px darkgreen;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#tweet {
+    width: 400px;
+    height: 100px;
+    outline: solid 2px magenta;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#tweet-hist {
+    width: 400px;
+    height: 400px;
+    outline: solid 2px magenta;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#friends {
+    width: 300px;
+    height: 300px;
+    outline: solid 2px yellow;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+#media {
+    width: 300px;
+    height: 300px;
+    outline: solid 2px yellow;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
