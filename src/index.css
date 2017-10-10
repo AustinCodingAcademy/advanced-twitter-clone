@@ -3,3 +3,54 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.border {
+  border-style: solid;
+  border-color: red;
+}
+
+h3 {
+  background-color: blue;
+}
+
+/*.header{
+    height: 20px;
+    width: 100%;
+    background-color: red;
+}
+
+.profile {
+    height: 200px;
+    width: 50%;
+    background-color: orange;
+}
+
+.posttweets{
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+}
+
+.tweets{
+    height: 200px;
+    width: 50%;
+    background-color: green;
+}
+
+.trends{
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+}
+
+.follow{
+    height: 200px;
+    width: 50%;
+    background-color: purple;
+}
+
+.livevideo{
+    height: 200px;
+    width: 50%;
+    background-color: pink;
+}*/
