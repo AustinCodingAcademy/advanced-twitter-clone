@@ -4,6 +4,8 @@ function App(){
       <NavBar />
       <Logo />
       <SearchBar />
+      <Tweet />
+      <UserProfile />
       <Trends />
       <Header />
     </div>
