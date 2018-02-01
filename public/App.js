@@ -1,3 +1,11 @@
 function App(){
-  return <div><Main /></div>
+  return (
+    <div>
+      <NavBar />
+      <Logo />
+      <SearchBar />
+      <Trends />
+      <Header />
+    </div>
+  );
 }

@@ -22,3 +22,22 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.NavBar {
+  border: 1px solid red;
+  float: left;
+}
+
+.SearchBar {
+  border: 1px solid red;
+  float: right;
+}
+
+.Logo {
+  border: 1px solid red;
+  float: left;
+}
+
+.Trends {
+  border: 1px solid red;
+}
